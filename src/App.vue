@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-pikiitos-cream">
-    <Navbar v-if="!isAdminRoute" />
+    <Navbar v-if="!isAdminRoute && !isHomeRoute" />
 
     <RouterView />
 
@@ -30,7 +30,8 @@ import { useProductQuickView } from '@/composables/useProductQuickView'
 const route = useRoute()
 const isAdminRoute = computed(() => route.path.startsWith('/admin'))
 const isLoginRoute = computed(() => route.path === '/login')
-const showLayout = computed(() => !isAdminRoute.value && !isLoginRoute.value)
+const isHomeRoute = computed(() => route.name === 'home')
+const showLayout = computed(() => !isAdminRoute.value && !isLoginRoute.value && !isHomeRoute.value)
 
 const { isOpen: quickViewOpen, product: quickViewProduct, close: closeQuickView } = useProductQuickView()
 

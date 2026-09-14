@@ -24,6 +24,12 @@ export default {
           'text-light': '#6B5B4F',
           'text-muted': '#9B8B7F',
         },
+        jbagency: {
+          bg: '#F0EDE8',
+          olive: '#9B8B6B',
+          charcoal: '#4A4A4A',
+          gray: '#888888',
+        },
       },
       fontFamily: {
         fredoka: ['"Fredoka"', 'sans-serif'],
