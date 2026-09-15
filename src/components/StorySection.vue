@@ -23,11 +23,11 @@
           <div class="story-image-wrapper">
             <div class="story-image-glow"></div>
             <div class="story-image-container">
-              <img
+              <!-- <img
                 src="/images/pikitos1.png"
                 alt="Ropa y detalles de Pikiitos"
                 class="story-image"
-              />
+              /> -->
               <div class="story-image-fade-left"></div>
               <div class="story-image-fade-right"></div>
               <div class="story-image-fade-top"></div>
@@ -40,11 +40,11 @@
         <div class="mt-8 lg:mt-14">
           <div class="grid lg:grid-cols-[1.05fr_1.2fr] items-center gap-5 lg:gap-8 p-3 sm:p-5 lg:p-8">
             <div class="overflow-hidden rounded-[1.4rem] lg:rounded-[1.8rem] shadow-soft-sm">
-              <img
+              <!-- <img
                 src="/images/pikitos2.jpeg"
                 alt="Paula Salcedo, diseñadora de Pikiitos"
                 class="w-full h-[260px] sm:h-[420px] object-cover"
-              />
+              /> -->
             </div>
 
             <div class="px-1 py-2 sm:px-4 lg:px-6">
