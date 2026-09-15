@@ -11,7 +11,7 @@
             </p>
             <h2 class="font-fredoka font-bold text-2xl sm:text-4xl lg:text-5xl text-pikiitos-brown leading-[0.95]">
               Más que ropa,
-              <span class="block font-dancing text-pikiitos-yellow text-[1.15em]" style="font-family: 'Dancing Script', cursive;">
+              <span class="block font-dancing text-pikiitos-yellow text-[1.15em]" style="font-family: 'OptimaItalic', serif;">
                 creamos recuerdos♡
               </span>
             </h2>
@@ -69,7 +69,7 @@
               </h3>
               <p
                 class="mt-1.5 lg:mt-2 text-lg sm:text-2xl lg:text-[2.15rem]"
-                style="font-family: 'Dancing Script', cursive; color: #FFD84D;"
+                style="font-family: 'OptimaItalic', serif; color: #FFD84D;"
               >
                 y este es mi sueño hecho realidad
                 <span style="color: #FFD84D;">♡</span>
@@ -87,7 +87,7 @@
               <div class="mt-5 lg:mt-7">
                 <p
                   class="text-xl sm:text-3xl"
-                  style="font-family: 'Dancing Script', cursive; color: #4A4A4A;"
+                  style="font-family: 'OptimaItalic', serif; color: #4A4A4A;"
                 >
                   Paula Salcedo
                   <span style="color: #FFD84D;">♡</span>

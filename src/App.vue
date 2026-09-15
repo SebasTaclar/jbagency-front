@@ -1,10 +1,10 @@
 <template>
   <div class="min-h-screen bg-[#FAF8F5]">
-    <Navbar />
+    <!-- <Navbar /> -->
 
     <Maintenance />
 
-    <Footer_ />
+    <!-- <Footer_ /> -->
   </div>
 </template>
 

@@ -1974,7 +1974,7 @@ const openWhatsApp = (quote: { phone: string; name: string }) => {
   --c-info: #3B82F6;
   --sidebar-w: 240px;
   --topbar-h: 64px;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'OptimaMedium', serif;
   display: flex;
   min-height: 100vh;
   background: var(--c-light);
