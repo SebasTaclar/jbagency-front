@@ -264,6 +264,7 @@ defineOptions({ name: 'Maintenance' })
     align-items: center;
     gap: 0.25rem;
     padding-right: 2.65rem;
+    padding-top: 2rem;
   }
 
   .ok-hand {
