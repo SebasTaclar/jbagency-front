@@ -495,7 +495,7 @@ defineOptions({ name: 'CategoryProductsView' })
 
 .sidebar-title {
   margin: 0 0 1rem;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 1.1rem;
   font-weight: 700;
   color: #4A3728;
@@ -521,13 +521,13 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 0.85rem;
   background: transparent;
   color: #4A3728;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .search-input::placeholder { color: #8B7355; opacity: 0.6; }
 
 .filter-label {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 0.8rem;
   font-weight: 700;
   color: #4A3728;
@@ -545,7 +545,7 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 0.88rem;
   color: #6B5B4E;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .radio-item input[type="radio"] {
@@ -561,7 +561,7 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 0.88rem;
   color: #6B5B4E;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .checkbox-item input[type="checkbox"] {
@@ -589,7 +589,7 @@ defineOptions({ name: 'CategoryProductsView' })
   background: white;
   border: 1px solid rgba(215, 172, 67, 0.3);
   color: #4A3728;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-weight: 600;
   font-size: 0.85rem;
   cursor: pointer;
@@ -627,7 +627,7 @@ defineOptions({ name: 'CategoryProductsView' })
 
 .category-title {
   margin: 0;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: #4A3728;
@@ -637,7 +637,7 @@ defineOptions({ name: 'CategoryProductsView' })
   margin: 0.9rem 5rem 1rem 0;
   color: #6B5B4E;
   line-height: 1.6;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 0.92rem;
   text-align: justify;
 }
@@ -651,7 +651,7 @@ defineOptions({ name: 'CategoryProductsView' })
   background: #4A3728;
   color: white;
   border-radius: 999px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-weight: 700;
   font-size: 0.85rem;
   text-decoration: none;
@@ -697,7 +697,7 @@ defineOptions({ name: 'CategoryProductsView' })
 .meta-text {
   font-size: 0.88rem;
   color: #6B5B4E;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .meta-text strong { color: #4A3728; font-weight: 700; }
@@ -707,7 +707,7 @@ defineOptions({ name: 'CategoryProductsView' })
 .sort-label {
   font-size: 0.85rem;
   color: #6B5B4E;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .sort-select {
@@ -717,7 +717,7 @@ defineOptions({ name: 'CategoryProductsView' })
   padding: 0 0.9rem;
   background: white;
   color: #4A3728;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 0.85rem;
 }
 
@@ -728,7 +728,7 @@ defineOptions({ name: 'CategoryProductsView' })
   padding: 0.75rem 1rem;
   border-radius: 12px;
   margin-bottom: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 0.88rem;
 }
 
@@ -788,7 +788,7 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 0.75rem;
   font-weight: 700;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   z-index: 2;
 }
 
@@ -800,7 +800,7 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 0.7rem;
   font-weight: 700;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   z-index: 2;
 }
 
@@ -849,7 +849,7 @@ defineOptions({ name: 'CategoryProductsView' })
   letter-spacing: 0.5px;
   font-weight: 800;
   color: #FFE87A;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .prod-name {
@@ -857,7 +857,7 @@ defineOptions({ name: 'CategoryProductsView' })
   font-size: 1.35rem;
   font-weight: 700;
   color: white;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'OptimaMedium', serif;
   line-height: 1.3;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -874,7 +874,7 @@ defineOptions({ name: 'CategoryProductsView' })
 }
 
 .price {
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-weight: 700;
   font-size: 1.4rem;
   color: white;
@@ -895,7 +895,7 @@ defineOptions({ name: 'CategoryProductsView' })
   background: rgba(255, 255, 255, 0.95);
   color: #4A3728;
   border: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-weight: 700;
   font-size: 0.85rem;
   cursor: pointer;
@@ -918,7 +918,7 @@ defineOptions({ name: 'CategoryProductsView' })
   text-align: center;
   padding: 3rem 0;
   color: #6B5B4E;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
 }
 
 .pagination {
@@ -936,7 +936,7 @@ defineOptions({ name: 'CategoryProductsView' })
   border: 1px solid rgba(215, 172, 67, 0.2);
   background: white;
   color: #6B5B4E;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-weight: 600;
   font-size: 0.85rem;
   cursor: pointer;

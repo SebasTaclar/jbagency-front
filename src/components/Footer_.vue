@@ -30,7 +30,7 @@ defineOptions({ name: 'FooterSection' })
 }
 
 .footer-logo {
-  height: 4.5rem;
+  height: 4.3rem;
   width: auto;
   object-fit: contain;
 }
@@ -45,7 +45,7 @@ defineOptions({ name: 'FooterSection' })
 }
 
 .footer-tagline {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 11px;
   color: rgba(26, 26, 26, 0.4);
   margin: 0;
@@ -54,9 +54,21 @@ defineOptions({ name: 'FooterSection' })
 .footer-copyright {
   position: absolute;
   right: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'OptimaMedium', serif;
   font-size: 11px;
   color: rgba(26, 26, 26, 0.4);
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .footer-copyright {
+    position: static;
+  }
 }
 </style>

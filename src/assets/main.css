@@ -1,9 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'OptimaRegular';
+  src: url('/fonts/OPTIMA.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'OptimaMedium';
   src: url('/fonts/Optima Medium.ttf') format('truetype');
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OptimaBold';
+  src: url('/fonts/OPTIMA_B.TTF') format('truetype');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -27,7 +41,7 @@
   }
 
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'OptimaMedium', serif;
     background-color: #FFF8E8;
     color: #3D2E1F;
     -webkit-font-smoothing: antialiased;

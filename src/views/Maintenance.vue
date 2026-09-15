@@ -30,6 +30,11 @@
         </div>
       </div>
     </div>
+
+    <div class="maintenance-footer">
+      <img src="/images/Logo.png" alt="JB Agency" class="maintenance-logo" />
+      <p class="maintenance-copyright">Estrategia y creatividad con propósito</p>
+    </div>
   </div>
 </template>
 
@@ -41,10 +46,11 @@ defineOptions({ name: 'Maintenance' })
 .maintenance-wrapper {
   min-height: 50vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #FAF8F5;
-  padding: 2rem 1rem 0;
+  padding-top: 5rem;
   margin-bottom: 0;
 }
 
@@ -63,8 +69,8 @@ defineOptions({ name: 'Maintenance' })
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 3rem;
-  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-left: 1rem;
 }
 
 .left-text-block {
@@ -74,7 +80,7 @@ defineOptions({ name: 'Maintenance' })
 
 .saludo-hand {
   position: absolute;
-  top: -30px;
+  top: -40px;
   left: -70px;
   height: 80px;
   width: auto;
@@ -82,40 +88,38 @@ defineOptions({ name: 'Maintenance' })
 }
 
 .left-line-1 {
+ font-size: 36px;
   font-family: 'OptimaMedium', serif;
-  font-size: 1.85rem;
   font-weight: 300;
-  color: #1a1a1a;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  margin: 0 0 0.1rem 0;
+  font-style: normal;
+  color: #635F5C;
+  font-display: swap;
 }
 
 .left-line-italic {
   font-family: 'OptimaMedium', serif;
-  font-size: 1.85rem;
-  font-weight: 500;
-  color: #8F8A5B;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
+  font-size: 34px;
+  font-weight: 600;
+  color: #999b6e;
+  line-height: 1.3;
   margin: 0;
+  font-style: italic;
 }
 
 .left-line-normal {
   font-family: 'OptimaMedium', serif;
-  font-size: 1.85rem;
+  font-size: 36px;
   font-weight: 300;
-  color: #1a1a1a;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
+  color: #635F5C;
+  line-height: 1.2;
   margin: 0;
 }
 
 .conos-image {
-  width: 200px;
+  width: 190px;
   height: auto;
   object-fit: contain;
-  margin-top: -3.0rem;
+  margin-top: -3.5rem;
   margin-left: 8.5rem;
 }
 
@@ -154,22 +158,20 @@ defineOptions({ name: 'Maintenance' })
 }
 
 .ok-line-1 {
-  font-family: 'OptimaMedium', serif;
-  font-size: 25px;
+  font-family: 'OptimaRegular', serif;
+  font-size: 28px;
   font-weight: 300;
-  color: #3a3a3a;
-  line-height: .8;
+  color: #635F5C;
+  line-height: 1.2;
 }
 
 .ok-line-2 {
-  font-family: 'OptimaItalic', serif;
-  font-size: 22px;
+  font-family: 'OptimaRegular', serif;
+  font-size: 24px;
   font-weight: 400;
-  color: #3a3a3a;
-  text-decoration: none;
-  line-height: 1.3;
-  transition: color 0.2s ease;
-
+  color: #635F5C;
+  line-height: .8;
+  font-style: italic;
 }
 
 .ok-line-2:hover {
@@ -178,38 +180,117 @@ defineOptions({ name: 'Maintenance' })
 
 .maintenance-divider {
   width: 3px;
-  height: 20rem;
+  height: 26rem;
   background-color: rgba(37, 33, 27, 0.658);
   flex-shrink: 0;
-  margin-top: -4rem;
+  margin-top: -3rem;
   margin-right: 5rem;
 }
 
+.maintenance-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maintenance-logo {
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.maintenance-copyright {
+  font-family: 'Optimamedium', serif;
+  font-size: 10px;
+  color: #635F5C;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
+  .maintenance-wrapper {
+    padding: 4rem 1rem 0;
+  }
+
   .maintenance-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 0;
+    margin-left: 0;
+  }
+
+  .maintenance-left {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .saludo-hand {
+    top: -40px;
+    left: -40px;
+    height: 55px;
+  }
+
+  .left-line-1,
+  .left-line-italic,
+  .left-line-normal {
+    font-size: 18px;
+  }
+
+  .conos-image {
+    margin-left: 90px;
+    margin-right: auto;
+    margin-top: -1rem;
+    width: 120px;
   }
 
   .maintenance-divider {
-    width: 100%;
-    height: 1px;
-    background-color: rgba(196, 154, 108, 0.3);
+    width: auto;
+    height: 2px;
+    background-color: rgba(37, 33, 27, 0.658);
+    margin: 1rem 3rem;
+    align-self: stretch;
   }
 
-  .maintenance-left,
   .maintenance-right {
-    align-items: center;
-    text-align: center;
+    padding-left: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .ok-block {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    padding-right: 2.65rem;
+  }
+
+  .ok-hand {
+    height: 55px;
+    transform: rotate(35deg);
+    margin-right: -17px;
+    margin-bottom: 40px;
+  }
+
+  .maintenance-copyright {
+    font-size: 9px;
   }
 
   .ok-content {
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .ok-line-1 {
+    font-size: 16px;
+  }
+
+  .ok-line-2 {
+    font-size: 14px;
+  }
+
+  .maintenance-logo {
+    height: 2.5rem;
   }
 }
 </style>
